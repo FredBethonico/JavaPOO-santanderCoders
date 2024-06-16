@@ -1,12 +1,14 @@
 package Animais;
 
 public abstract class Animal {
+    // Atributos
     protected String nome;
     protected String cor;
     protected int altura;
     protected double peso;
     protected String estadoDeEspirito;
 
+    // Método construtor
     public Animal(String nome, String cor, int altura, double peso, String estadoDeEspirito) {
         this.nome = nome;
         this.cor = cor;
@@ -15,6 +17,7 @@ public abstract class Animal {
         this.estadoDeEspirito = estadoDeEspirito;
     }
 
+    // Métodos Getters e Setters
     public String getNome() {
         return nome;
     }
@@ -55,6 +58,7 @@ public abstract class Animal {
         this.estadoDeEspirito = estadoDeEspirito;
     }
 
+    // Outros métodos
     protected void comer(){}
 
     protected void dormir(){}

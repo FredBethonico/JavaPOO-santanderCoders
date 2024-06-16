@@ -6,7 +6,8 @@ import Lojas.Petshop;
 public class Main {
     public static void main(String[] args) {
 
-        Cachorro cachorro1 = new Cachorro("Bob", "Preto", 30, 5.2, 5, "Nada");
+        // criação dos objetos
+        Cachorro cachorro1 = new Cachorro("Bob", "Preto", 30, 5.2, "Nada");
 
         Gato gato1  = new Gato("Fanon", "Cinza", 15, 5.0, "Nada");
 
@@ -14,6 +15,7 @@ public class Main {
 
         Petshop petshop = new Petshop();
 
+        // teste dos métodos nos objetos
         petshop.darBanho(gato1);
         System.out.printf(gato1.getNome() + ": "+  gato1.getEstadoDeEspirito() + "%n");
 

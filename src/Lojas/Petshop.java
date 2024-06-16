@@ -3,6 +3,7 @@ package Lojas;
 import Animais.Animal;
 import Animais.Cachorro;
 
+// Classe petshop para estudar polimorfismo
 public class Petshop {
 
     public void darBanho(Animal animal){
