@@ -22,5 +22,9 @@ public class Main {
 
         petshop.deixarNoHotel(passaro1);
         System.out.printf(passaro1.getNome() + ": " + passaro1.getEstadoDeEspirito() + "%n");
+
+        cachorro1.soar();
+        gato1.soar();
+        passaro1.soar();
     }
 }
